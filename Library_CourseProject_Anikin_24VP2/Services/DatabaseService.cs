@@ -8,7 +8,7 @@ namespace Library_CourseProject_Anikin_24VP2.Services
         /// <summary>
         /// Текущий путь к БД в рабочей области
         /// </summary>
-        public string CurrentDatabasePath { get; private set; } = string.Empty;
+        private string CurrentDatabasePath { get; set; } = string.Empty;
 
         /// <summary>
         /// Строка подключения
