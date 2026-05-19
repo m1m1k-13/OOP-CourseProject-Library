@@ -41,7 +41,7 @@ namespace Library_CourseProject_Anikin_24VP2.Services
         /// <summary>
         /// Папка БД
         /// </summary>
-        private readonly string databaseDirectory = Path.Combine(Application.StartupPath, "databases");
+        private readonly string databaseDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Программа управления ИС Библиотека", "databases");
 
         public DatabaseService()
         {
