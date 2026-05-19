@@ -214,6 +214,7 @@ namespace Library_CourseProject_Anikin_24VP2
                     StatusLabel.Text = "SQLite: База данных создана";
 
                     UpdateTreeView();
+                    LoadAllTables();
                 }
                 catch (Exception ex)
                 {
