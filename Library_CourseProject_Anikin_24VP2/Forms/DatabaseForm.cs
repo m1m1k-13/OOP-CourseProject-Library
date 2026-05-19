@@ -1,18 +1,18 @@
 ﻿namespace Library_CourseProject_Anikin_24VP2.Forms
 {
-    public partial class DBForm : Form
+    public partial class DatabaseForm : Form
     {
         public string DBName
         {
             get => DBNameTextBox.Text.Trim();
         }
 
-        public DBForm()
+        public DatabaseForm()
         {
             InitializeComponent();
         }
 
-        public DBForm(string databaseName)
+        public DatabaseForm(string databaseName)
         {
             InitializeComponent();
 

@@ -194,7 +194,7 @@ namespace Library_CourseProject_Anikin_24VP2
         /// </summary>
         private void CreateDatabase()
         {
-            using DBForm form = new DBForm();
+            using DatabaseForm form = new DatabaseForm();
 
             if (form.ShowDialog() == DialogResult.OK)
             {
@@ -235,7 +235,7 @@ namespace Library_CourseProject_Anikin_24VP2
                 return;
             }
 
-            using DBForm form = new DBForm(databaseName);
+            using DatabaseForm form = new DatabaseForm(databaseName);
 
             if (form.ShowDialog() == DialogResult.OK)
             {

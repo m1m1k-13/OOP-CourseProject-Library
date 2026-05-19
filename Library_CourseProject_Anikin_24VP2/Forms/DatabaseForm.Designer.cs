@@ -1,6 +1,6 @@
 ﻿namespace Library_CourseProject_Anikin_24VP2.Forms
 {
-    partial class DBForm
+    partial class DatabaseForm
     {
         /// <summary>
         /// Required designer variable.
